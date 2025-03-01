@@ -4,7 +4,7 @@ namespace MyMvc.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Index()
+        public IActionResult Nits()
         {
             return View(); // This will return the Index.cshtml view
         }

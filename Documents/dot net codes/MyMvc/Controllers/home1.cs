@@ -1,23 +1,18 @@
 using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
 
-namespace dot net codes
+namespace DotNetCodes // No spaces allowed in namespace
 {
-    public class home1
+    public class Home1 // Class name should be PascalCase
     {
-        //action
+        // Action Methods
+        public string Index()
         {
-            public string index()
-            {
-                return "hello world";
-            }
-            public string welcome()
-            {
-                return "hii";
-            }
+            return "Hello, World!";
+        }
+
+        public string Welcome()
+        {
+            return "Hi!";
         }
     }
 }
